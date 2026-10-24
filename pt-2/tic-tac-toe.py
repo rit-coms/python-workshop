@@ -99,7 +99,9 @@ def main():
     draw_o(SQUARE_SIZE)
     t.forward(SQUARE_SIZE)
     draw_x(SQUARE_SIZE)
+    t.backward(SQUARE_SIZE)
     t.done()
 
 
 main()
+
