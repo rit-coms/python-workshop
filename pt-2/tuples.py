@@ -7,7 +7,8 @@ print("mytuple[-1]: " + mytuple[-1])
 print()
 
 # Iterating through data
-for i in range(len(mytuple)):
+size = len(mytuple)
+for i in range(size):
     print(mytuple[i])
 print()
 

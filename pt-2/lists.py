@@ -1,6 +1,6 @@
 mylist = ["apple", "banana", "cherry"]
 
-# Ading new elements
+# Adding new elements
 mylist.append("grape")
 
 # Accessing data
@@ -15,7 +15,8 @@ print("mylist: " + str(mylist))
 print()
 
 # Iterating through data
-for i in range(len(mylist)):
+size = len(mylist)
+for i in range(size):
     print(mylist[i])
 print()
 

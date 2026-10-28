@@ -7,8 +7,10 @@ print("Inital myset: " + str(myset))
 myset.add("apple")
 print("myset: " + str(myset))
 
+# Removing data
 myset.remove("banana")
 print("myset: " + str(myset))
+
 
 if "pear" in myset:
     print("Found pear!")
