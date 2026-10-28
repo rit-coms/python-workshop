@@ -16,4 +16,4 @@ for fruit in mytuple:
     print(fruit)
 
 # Modifying data will throw an error
-# mytuple[1] = "apple" # will not work
+mytuple[1] = "apple" # will not work
